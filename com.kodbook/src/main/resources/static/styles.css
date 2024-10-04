@@ -1,0 +1,81 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #A1D6B2;
+    color: #333;
+    margin: 0;
+    padding-top: 160px; /* Space for the header */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content at the top */
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Header styles to center the headings */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #E8B86D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Heading styles */
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    color: yellow; /* Base color of the text */
+    text-shadow:
+        1px 1px 0 black, /* Black shadow */
+        2px 2px 0 #333, /* Darker gray shadow */
+        3px 3px 0 #666, /* Gray shadow */
+        4px 4px 0 #999;
+}
+
+
+
+h3 {
+    color: #006769;
+    text-align: center; /* Align h3 to center */
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Forms and buttons */
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+button, input[type="submit"] {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px 0;
+}
